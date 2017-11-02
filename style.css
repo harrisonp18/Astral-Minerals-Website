@@ -31,7 +31,7 @@
         
 			.topnav {
 				overflow: hidden;
-				background-color: slategrey;
+				background-color: lightslategrey;
 				border-style: double;
                 border-color: white;
 				border-radius: 12px;
@@ -41,8 +41,10 @@
 
 			.topnav a {
 				float: left;
+				display: block;
 				color: white;
 				text-align: center;
+				padding: 14px 16px;
 				text-decoration: none;
 				font-family: Avenir, Trebuchet MS;
 				font-size: 17px;
@@ -50,20 +52,22 @@
 			}
 
 			.topnav a:hover {
-				color: lightslategrey;
-                
+				background-color: lightslategrey;
+				color: steelblue;
 			}
 
 			.topnav a.active {
-				color: lightslategrey;
+				background-color: lightslategrey;
+				color: darkslategrey;
 			}
             img {
                 display: block;
                 margin: auto;
+				padding: 25px;
             }
             .list{
                 color:white;
-                background-color: slategrey;
+                background-color: lightslategrey;
                 border-style: double;
                 border-color: white;
                 text-align: center;
