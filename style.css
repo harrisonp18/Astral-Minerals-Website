@@ -3,7 +3,7 @@
 			h1 {
                 font-family: Avenir, Trebuchet MS;
                 color: white;
-                background-color: slategrey;
+                background-color: darkslategrey;
 				border-style: double;
                 border-color: white;
 				border-radius: 12px;
@@ -19,7 +19,7 @@
             }
             p {
                 color:white;
-                background-color: slategrey;
+                background-color: darkslategrey;
                 border-style: double;
                 border-color: white;
                 text-align: center;
@@ -31,7 +31,7 @@
         
 			.topnav {
 				overflow: hidden;
-				background-color: lightslategrey;
+				background-color: darkslategrey;
 				border-style: double;
                 border-color: white;
 				border-radius: 12px;
@@ -52,13 +52,13 @@
 			}
 
 			.topnav a:hover {
-				background-color: lightslategrey;
+				background-color: darkslategrey;
 				color: steelblue;
 			}
 
 			.topnav a.active {
-				background-color: lightslategrey;
-				color: darkslategrey;
+				background-color: darkslategrey;
+				color: black;
 			}
             img {
                 display: block;
@@ -67,7 +67,7 @@
             }
             .list{
                 color:white;
-                background-color: lightslategrey;
+                background-color: darkslategrey;
                 border-style: double;
                 border-color: white;
                 text-align: center;
