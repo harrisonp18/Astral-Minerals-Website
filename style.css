@@ -40,8 +40,7 @@
 			}
 
 			.topnav a {
-				float: center;
-				display: block;
+				float: left;
 				color: white;
 				text-align: center;
 				padding: 20px 20px;
