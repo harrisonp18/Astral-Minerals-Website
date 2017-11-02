@@ -1,0 +1,79 @@
+			 /*Avenir*/
+			 /*change margins to auto and adjust width, add padding*/
+			h1 {
+                font-family: Avenir, Trebuchet MS;
+                color: white;
+                background-color: slategrey;
+				border-style: double;
+                border-color: white;
+				border-radius: 12px;
+                text-align: center;
+				margin: auto;
+				width: 500px;
+				
+            }
+            body {
+                background-color: black;
+				margin: 25px 25px 25px 25px
+				
+            }
+            p {
+                color:white;
+                background-color: slategrey;
+                border-style: double;
+                border-color: white;
+                text-align: center;
+                font-family: Avenir, Trebuchet MS;
+				border-radius: 12px;
+				margin: auto;
+				width: 1000px;
+            }
+        
+			.topnav {
+				overflow: hidden;
+				background-color: slategrey;
+				border-style: double;
+                border-color: white;
+				border-radius: 12px;
+				width: 1100px;
+				margin: auto;
+			}
+
+			.topnav a {
+				float: left;
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-family: Avenir, Trebuchet MS;
+				font-size: 17px;
+				
+			}
+
+			.topnav a:hover {
+				background-color: slategrey;
+				color: lightslategrey;
+			}
+
+			.topnav a.active {
+				background-color: slategrey;
+				color: lightslategrey;
+			}
+            img {
+                display: block;
+                margin: auto;
+				padding: 25px;
+            }
+            .list{
+                color:white;
+                background-color: slategrey;
+                border-style: double;
+                border-color: white;
+                text-align: center;
+                font-family: Avenir, Trebuchet MS;
+				border-radius: 12px;
+				margin: auto;
+				width: 1000px;
+            }
+
