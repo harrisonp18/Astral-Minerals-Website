@@ -14,7 +14,7 @@
             }
             body {
                 background-color: black;
-				margin: 25px 25px 25px 25px
+				margin: 25px
 				
             }
             p {
@@ -25,7 +25,7 @@
                 text-align: center;
                 font-family: Avenir, Trebuchet MS;
 				border-radius: 12px;
-				margin: auto;
+				margin: auto ;
 				width: 1000px;
             }
         
@@ -35,8 +35,8 @@
 				border-style: double;
                 border-color: white;
 				border-radius: 12px;
-				width: 1100px;
-				margin: auto;
+				width: 929px;
+				margin: auto
 			}
 
 			.topnav a {
@@ -63,17 +63,10 @@
             img {
                 display: block;
                 margin: auto;
-				padding: 25px;
+                    
             }
             .list{
-                color:white;
-                background-color: dimgray;
-                border-style: double;
-                border-color: white;
-                text-align: center;
-                font-family: Avenir, Trebuchet MS;
-				border-radius: 12px;
-				margin: auto;
+				margin:auto;
 				width: 1000px;
             }
-
+            
