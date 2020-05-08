@@ -1,2 +1,2 @@
-# astralminerals.github.io
+# harrisonp18.github.io
 Astral Minerals Website
