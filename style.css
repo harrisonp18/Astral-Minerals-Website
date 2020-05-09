@@ -56,26 +56,21 @@
 				display: block;
 				color: white;
 				text-align: center;
-				padding: 20px 20px;
+				padding: 0px 20px 0px 20px;
 				text-decoration: none;
 				font-family: Reckoner;
 				font-size: 30px;
+                height: 60px;
+                line-height: 60px;
 				
 			}
 
 
-            .card{
-                
-                background: url(Astral%20-%202%20B&W.png) no-repeat;
-                width: 40px;
+            #navbarLogo:hover {
+                content: url(Astral%20-%202%20Black%20copy.png);
+                height: 60px;
+                padding: 0;
             }
-
-            .card:hover{
-                
-                background: url(Astral%20-%202%20Black%20copy.png) no-repeat;
-                width: 40px;
-            }
-
 
 			.topnav a:hover {
 				background-color: dimgray;
@@ -86,6 +81,7 @@
 				background-color: dimgray;
 				color: black;
 			}
+
             img {
                 display: block;
                 margin: auto;
