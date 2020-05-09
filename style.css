@@ -3,8 +3,8 @@
 			
  @font-face {
     font-family: 'reckonerregular';
-    src: url('reckoner-webfont.woff2') format('woff2'),
-         url('reckoner-webfont.woff') format('woff');
+    src: url('reckonerwebfont.woff2') format('woff2'),
+         url('reckonerwebfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
