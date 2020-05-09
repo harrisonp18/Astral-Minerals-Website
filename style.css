@@ -1,7 +1,17 @@
 			 /*Avenir*/
 			 /*change margins to auto and adjust width, add padding*/
-			h1 {
-                font-family: Avenir, Trebuchet MS;
+			
+ @font-face {
+    font-family: 'reckonerregular';
+    src: url('reckoner-webfont.woff2') format('woff2'),
+         url('reckoner-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+            h1 {
+                font-family: Reckoner;
                 color: white;
                 background-color: dimgray;
 				border-style: double;
@@ -13,8 +23,9 @@
 				
             }
             body {
-                background-color: black;
-				margin: 25px
+                background-image: url(StarBackground.jpg);
+                background-size: auto
+				margin: 25px;
 				
             }
             p {
@@ -24,7 +35,7 @@
                 border-style: double;
                 border-color: white;
                 text-align: center;
-                font-family: Avenir, Trebuchet MS;
+                font-family: Avenir;
 				border-radius: 12px;
 				margin: auto ;
 				width: 90%;
@@ -45,12 +56,26 @@
 				display: block;
 				color: white;
 				text-align: center;
-				padding: 14px 16px;
+				padding: 20px 20px;
 				text-decoration: none;
-				font-family: Avenir, Trebuchet MS;
-				font-size: 17px;
+				font-family: Reckoner;
+				font-size: 30px;
 				
 			}
+
+
+            .card{
+                
+                background: url(Astral%20-%202%20B&W.png) no-repeat;
+                width: 40px;
+            }
+
+            .card:hover{
+                
+                background: url(Astral%20-%202%20Black%20copy.png) no-repeat;
+                width: 40px;
+            }
+
 
 			.topnav a:hover {
 				background-color: dimgray;
