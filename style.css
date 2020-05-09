@@ -19,6 +19,7 @@
             }
             p {
                 color:white;
+                padding: 15px;
                 background-color: dimgray;
                 border-style: double;
                 border-color: white;
@@ -26,7 +27,7 @@
                 font-family: Avenir, Trebuchet MS;
 				border-radius: 12px;
 				margin: auto ;
-				width: 1000px;
+				width: 90%;
             }
         
 			.topnav {
@@ -35,7 +36,7 @@
 				border-style: double;
                 border-color: white;
 				border-radius: 12px;
-				width: 929px;
+				width: 90%;
 				margin: auto
 			}
 
