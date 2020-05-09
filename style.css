@@ -11,44 +11,55 @@
 }
 
             h1 {
-                font-family: Reckoner;
+                font-family: Reckoner, Avenir;
                 color: white;
                 background-color: dimgray;
-				border-style: double;
+				border-style: ridge;
                 border-color: white;
-				border-radius: 12px;
+				border-radius: 0px;
                 text-align: center;
 				margin: auto;
 				width: 500px;
 				
             }
-            body {
+
+
+            #homeBody {
                 background-image: url(StarBackground.jpg);
-                background-size: auto
-				margin: 25px;
+                background-size: auto;
+				
 				
             }
+
+            body {
+            
+                margin: 0;
+				
+            }
+
+             #homeBody {
+                background-image: url(StarBackground.jpg);
+                background-size: auto;
+				
+				
+            }
+
             p {
                 color:white;
                 padding: 15px;
                 background-color: dimgray;
-                border-style: double;
+                border-style: ridge;
                 border-color: white;
                 text-align: center;
                 font-family: Avenir;
-				border-radius: 12px;
+				border-radius: 0px;
 				margin: auto ;
 				width: 90%;
             }
         
 			.topnav {
 				overflow: hidden;
-				background-color: dimgray;
-				border-style: double;
-                border-color: white;
-				border-radius: 12px;
-				width: 90%;
-				margin: auto
+                background-image: url(StarBackground.jpg);	
 			}
 
 			.topnav a {
@@ -56,25 +67,23 @@
 				display: block;
 				color: white;
 				text-align: center;
-				padding: 0px 20px 0px 20px;
+				padding: 20px 20px 40px 40px;
 				text-decoration: none;
-				font-family: Reckoner;
-				font-size: 30px;
-                height: 60px;
-                line-height: 60px;
+				font-family: Reckoner, Avenir;
+				font-size: 60px;
+                height: 100px;
+                line-height: 160px;
 				
 			}
 
 
             #navbarLogo:hover {
-                content: url(Astral%20-%202%20Black%20copy.png);
-                height: 60px;
-                padding: 0;
+                content: url(Astral%20-%202%20darkgray%20copy.png);
+                height: 140px;
             }
 
 			.topnav a:hover {
-				background-color: dimgray;
-				color: black;
+				color: darkgray;
 			}
 
 			.topnav a.active {
@@ -87,8 +96,5 @@
                 margin: auto;
                     
             }
-            .list{
-				margin:auto;
-				width: 1000px;
-            }
+            
             
